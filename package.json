@@ -1,0 +1,30 @@
+{
+  "name": "cs648assignment01",
+  "version": "1.0.0",
+  "description": "Assignment1",
+  "main": "index.js",
+  "scripts": {
+    "compile": "babel src --presets react --out-dir static",
+    "watch": "babel src --presets react --out-dir static --watch --verbose",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Chintan Bhadrecha",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KashishDesai/CS648.02-Assignment-1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KashishDesai/CS648.02-Assignment-1/issues"
+  },
+  "homepage": "https://github.com/KashishDesai/CS648.02-Assignment-1#readme"
+}
